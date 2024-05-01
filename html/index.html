@@ -2,183 +2,285 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos Oliveira - Software Engineer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcos Oliveira - Software Engineer</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#">
-                <img src="./assets/img/logo-marcos.svg" alt="Marcos Oliveira - Software Engineer">
-            </a>
-            <a href="">Career</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
-            <a href="">GitHub</a>
-            <a href="">
+  <header class="container">
+    <nav>
+      <a href="#">
+        <svg width="100%" height="100%" viewBox="0 0 41 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <path
+              d="M40.256 18.8556C39.4892 17.3123 33.3839 4.95594 31.7194 1.19403C31.524 0.75071 31.1437 0.80717 30.6637 0.80717H26.3497C25.774 0.80717 25.5081 0.744437 25.294 1.09574C24.2633 2.79791 22.1707 6.78984 21.4184 8.05288C21.1317 8.53592 21.2106 9.2009 21.4184 9.59612C23.0705 12.7307 29.7057 26.5718 29.7057 26.5718C29.8969 26.9586 30.1858 27.151 30.5681 27.151H34.9798C35.651 27.151 35.8422 26.8624 36.1311 26.4756L40.256 19.3344C40.362 19.1504 40.2996 18.9413 40.256 18.8556Z" />
+            <path
+              d="M40.5781 19.0208C39.7843 17.4231 33.4712 4.64854 31.7526 0.759071C31.5511 0.301117 31.1583 0.359668 30.6617 0.359668H26.2001C25.6057 0.359668 25.3294 0.294844 25.1091 0.658697C24.0431 2.41941 21.8798 6.54727 21.1005 7.85213C20.8034 8.3519 20.8844 9.03988 21.1005 9.44974C22.8087 12.691 29.6704 27.0025 29.6704 27.0025C29.8678 27.4019 30.1671 27.6006 30.5619 27.6006H35.1232C35.8173 27.6006 36.0147 27.3016 36.314 26.9022L40.5781 19.5184C40.6883 19.3261 40.6218 19.1107 40.5781 19.0208ZM35.4516 26.0762C35.2541 26.3752 35.1627 26.4317 34.7658 26.4317C34.2692 26.4317 31.4929 26.4338 31.1084 26.4338C30.7115 26.4338 30.6513 26.3271 30.5058 26.0762C30.5058 26.0762 22.177 8.9876 22.1749 8.97924C22.1728 8.97087 21.965 8.69903 22.2206 8.25362C22.2248 8.24525 25.3107 2.5867 25.3107 2.5867C25.4104 2.38805 25.6016 2.27931 25.7471 2.55115C25.7471 2.55115 31.9625 16.1267 33.6478 19.4202C33.7912 19.7004 34.0447 19.8196 34.3419 19.8196C34.8469 19.8196 37.4818 19.8196 38.4232 19.8196C38.9198 19.8196 38.9178 19.9722 38.8201 20.219C38.7307 20.4427 35.5492 25.9298 35.4516 26.0762Z" />
+            <path
+              d="M26.811 18.9267C26.038 17.373 19.9555 4.89738 18.2806 1.11246C18.0832 0.667054 17.7009 0.723514 17.2188 0.723514H12.8756C12.2958 0.723514 12.0278 0.660781 11.8137 1.01418C10.7768 2.72889 8.7112 6.54099 7.95271 7.81239C7.66386 8.29753 7.74283 8.96877 7.95271 9.36608C9.61515 12.5216 16.2525 26.6554 16.2525 26.6554C16.4457 27.0444 16.7346 27.2388 17.1211 27.2388H21.5619C22.2372 27.2388 22.4305 26.9482 22.7194 26.5592L26.809 19.4118C26.917 19.2236 26.8547 19.0145 26.811 18.9267Z" />
+            <path
+              d="M27.0708 19.0626C26.277 17.465 20.0262 4.64854 18.3076 0.759071C18.1061 0.301117 17.7133 0.359668 17.2167 0.359668H12.753C12.1587 0.359668 11.8823 0.294844 11.662 0.658697C10.596 2.41941 8.47428 6.33816 7.69501 7.64301C7.39785 8.14279 7.47889 8.83077 7.69501 9.24062C9.40317 12.4818 16.2233 27.0025 16.2233 27.0025C16.4208 27.4019 16.72 27.6006 17.1148 27.6006H21.6762C22.3702 27.6006 22.5676 27.3016 22.8669 26.9022L27.0687 19.5603C27.1809 19.3679 27.1144 19.1525 27.0708 19.0626ZM22.0066 26.0762C21.8091 26.3752 21.7177 26.4317 21.3208 26.4317C20.8242 26.4317 18.0479 26.4338 17.6634 26.4338C17.2665 26.4338 17.2063 26.3271 17.0608 26.0762C17.0608 26.0762 8.77352 8.77849 8.77144 8.77012C8.76936 8.76176 8.56156 8.48991 8.81716 8.04451C8.82131 8.03614 11.8657 2.5867 11.8657 2.5867C11.9654 2.38805 12.1566 2.27931 12.3021 2.55115C12.3021 2.55115 18.5175 16.1267 20.2028 19.4202C20.3462 19.7004 20.5997 19.8196 20.8969 19.8196C21.4018 19.8196 24.0368 19.8196 24.9782 19.8196C25.4748 19.8196 25.4728 19.9722 25.3751 20.219C25.2857 20.4427 22.1042 25.9298 22.0066 26.0762Z" />
+            <path
+              d="M13.4263 19.0668C13.42 19.0542 10.9014 13.8285 10.8994 13.8222C10.7394 13.4919 10.3237 13.4354 9.84371 13.4354H5.52968C4.95405 13.4354 4.68806 13.3727 4.47402 13.724C3.44331 15.4282 1.39227 19.2173 0.637937 20.4803C0.351165 20.9634 0.469614 21.6618 0.637937 22.0236C0.642093 22.0299 2.876 26.7851 2.876 26.7851C3.06718 27.1719 3.35603 27.3643 3.73839 27.3643H8.1501C8.82131 27.3643 9.01249 27.0757 9.30134 26.6889L13.4263 19.5477C13.5343 19.3616 13.4741 19.1546 13.4263 19.0668Z" />
+            <path
+              d="M13.6466 19.0208C13.6404 19.0082 11.0366 13.6048 11.0345 13.5985C10.8682 13.2577 10.4402 13.1991 9.9435 13.1991H5.47984C4.88551 13.1991 4.60913 13.1343 4.38886 13.4981C3.32282 15.2588 1.20112 19.1776 0.421853 20.4824C0.124692 20.9822 0.247297 21.7037 0.421853 22.0801C0.426009 22.0863 2.73681 27.0025 2.73681 27.0025C2.93422 27.4019 3.23346 27.6006 3.62829 27.6006H8.18962C8.88369 27.6006 9.0811 27.3016 9.38034 26.9022L13.6445 19.5184C13.7567 19.3261 13.6944 19.1128 13.6466 19.0208ZM8.52003 26.0762C8.32261 26.3752 8.23118 26.4317 7.83427 26.4317C7.33762 26.4317 4.56134 26.4338 4.1769 26.4338C3.77999 26.4338 3.71972 26.3271 3.57426 26.0762C3.57426 26.0762 1.50036 21.6179 1.49829 21.6096C1.49621 21.6012 1.2884 21.3293 1.544 20.8839C1.54816 20.8756 4.59251 15.4261 4.59251 15.4261C4.69225 15.2275 4.88343 15.1187 5.0289 15.3906C5.0289 15.3906 6.71212 19.4055 6.71628 19.4202C6.80563 19.7234 7.11319 19.8196 7.41035 19.8196C7.91532 19.8196 10.5503 19.8196 11.4916 19.8196C11.9883 19.8196 11.9862 19.9722 11.8886 20.219C11.7992 20.4427 8.6177 25.9298 8.52003 26.0762Z" />
+          </g>
+        </svg>
+      </a>
+      <span>
+        <a href="">On-line Order</a>
+      <button class="link-menu" onclick="toggleNav()">
+        <svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4.30591" y="0.469971" width="22.6941" height="3" rx="1.5" fill="white"/>
+          <rect x="0.619385" y="8.5" width="26.3806" height="3" rx="1.5" fill="white"/>
+          <rect x="4.30591" y="16.53" width="22.6941" height="3" rx="1.5" fill="white"/>
+        </svg>
+      </button>
+      <label class="switch">
+        <input type="checkbox" id="toggleDarkMode">
+        <span class="slider round"></span>
+      </label>
+      </span>
+    </nav>
+  </header>
+  <div id="mySidenav" class="sidenav">
+    <span class="closebtn" onclick="closeNav()">Close</span>
 
-            </a>
-        </nav>
-    </header>
-    <main>
-        <section id="hero">
-            <div class="time-line">
-                <span>São Paulo, Brazil</span>
-                <span>
-                    <h1>I'm Marcos, a Software Engineer.</h1>
-                    <p>Creating art with code for love for the past 8 years.</p>
-                    <a href="">View GitHub <img src="" alt=""></a>
-                    <a href="">Download CV</a>
-                </span>
-            </div>
-        </section>
-        <section id="cards">
-            <div class="cards">
-                <span>
-                    <h6>Career.</h6>
-                    <h4>My professional experiences succinctly summarized and outlined in a comprehensive timeline.</h4>
-                    <a href="">Discover More</a>
-                </span>
-                <span>
-                    <h6>Projects.</h6>
-                    <h4>Recent projects in which I take particular pride for having been a crucial part of.</h4>
-                    <a href="">Discover More</a>
-                </span>
-                <span>
-                    <h6>Blog.</h6>
-                    <h4>Love writing about my learning journey and sharing opinions on news and current events.</h4>
-                    <a href="">Discover More</a>
-                </span>
-            </div>
-        </section>
-        <section id="card-cta">
-            <div class="card-cta">
-                <img src="" alt="">
-                <span>
-                    <h3>Discover the open-source project BetterFly. A simple and fast CMS built with Python to make the content of your website dynamic.</h3>
-                    <a href="">View GitHub <img src="" alt=""></a>
-                    <small>Don't forget to leave your star.</small>
-                </span>
-            </div>
-        </section>
-        <section id="contributions">
-            <div class="contributions">
-                <span>
-                    <img src="" alt="">
-                    <h4>SysIdentPy</h4>
-                    <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
-                    <a href="">View Resume</a>
-                </span>
-            </div>
-        </section>
-        <section id="skills">
-            <div class="skills">
-                <span>
-                    <h6>Backend</h6>
-                    <h3>Python</h3>
-                    <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
-                </span>
-                <span>
-                    <h6>Frontend</h6>
-                    <h3>JavaScript</h3>
-                    <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
-                </span>
-                <span>
-                    <h6>Backend</h6>
-                    <h3>Golang</h3>
-                    <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
-                </span>
-                <span>
-                    <h6>Devops</h6>
-                    <h3>Amazon Web Services</h3>
-                    <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
-                </span>
-            </div>
-            <div class="frameworks">
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h4>Django</h4>
-                </span>
-            </div>
-            <a href="">View Resume</a>
-        </section>
-        <section id="cta">
-            <div class="cta">
-                <span>
-                    <h6>sodales in suscipit liquam erat</h6>
-                    <h2>Pellentesque volutpat sodales in suscipit liquam erat volutpat?</h2>
-                </span>
-                <span>
-                    <img src="" alt="">
-                </span>
-            </div>
-        </section>
-    </main>
-    <footer>
+    <p>About Me</p>
+    <a href="">Career</a>
+    <a href="">Skills</a>
+    <a href="">Projects</a>
+    <a href="">Blog</a>
+
+    <p>Networking</p>
+    <a href="">Contact</a>
+    <a href="">GitHub</a>
+    
+  </div>
+  <main class="container">
+    <section id="hero">
+      <div class="time-line">
+        <span>São Paulo, Brazil</span>
         <span>
-            <h4>Contact information</h4>
-            <p>Pellentesque volutpat sodales in suscipit liquam erat volutpat.</p>
-            <a href="">hello@bymarcos.com</a>
-            <a href="">+55 12 982 823 384</a>
+          <h1>I'm Marcos, a Software Engineer.</h1>
+          <p>Creating art with code for love for the past 8 years.</p>
+          <a href="">View Career</a>
+          <a href="">Download CV</a>
+        </span>
+      </div>
+    </section>
+    <section id="cards">
+      <div class="cards">
+        <span>
+          <h6>Career.</h6>
+          <h4>My professional experiences succinctly summarized and outlined in a comprehensive timeline.</h4>
+          <a href="">Discover More</a>
         </span>
         <span>
-            <h4>Current availability</h4>
-            <p>Pellentesque volutpat sodales in suscipit liquam erat volutpat.</p>
-            <a href="">System Development</a>
-            <a href="">Interface Creating</a>
-            <a href="">UX Consulting</a>
-            <a href="">IT Project Management</a>
-            <a href="">Career Mentoring</a>
+          <h6>Projects.</h6>
+          <h4>Recent projects in which I take particular pride for having been a crucial part of.</h4>
+          <a href="">Discover More</a>
         </span>
         <span>
-            <h4>Recent articles</h4>
-            <a href="">
-                <time datetime="2022-12-02">2 de dezembro</time>
-                <p>Pellentesque volutpat odales in suscipit</p>
-                Read more
-            </a>
+          <h6>Blog.</h6>
+          <h4>Love writing about my learning journey and sharing opinions on news and current events.</h4>
+          <a href="">Discover More</a>
+        </span>
+      </div>
+    </section>
+    <section id="card-cta">
+      <div class="card-cta">
+        <img src="./assets/img/preview.jpg" alt="BetterFly">
+        <span>
+          <h3>Discover the open-source project <strong>BetterFly</strong>. A simple and fast CMS built with
+            <strong>Python</strong> to make the content of your <strong>website dynamic</strong>.</h3>
+          <a href="#">View GitHub</a>
+          <small>Don't forget to leave your star.</small>
+        </span>
+      </div>
+    </section>
+    <section id="contributions">
+      <h2>My Contributions</h2>
+      <div class="contributions">
+        <span>
+          <ul>
+            <li>Python</li>
+            <li>Open Source</li>
+            <li>Lib</li>
+          </ul>
+          <img src="./assets/img/preview.jpg" alt="">
+          <h4>SysIdentPy</h4>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+          <a href="">View Resume</a>
         </span>
         <span>
-            <h4>Follow me on</h4>
-            <p>Pellentesque volutpat sodales in suscipit liquam erat volutpat.</p>
-            <a href="">LinkedIn</a>
-            <a href="">GitHub</a>
-            <a href="">Dribble</a>
-            <a href="">Youtube</a>
-            <a href="">Twitter</a>
+          <ul>
+            <li>Python</li>
+            <li>Open Source</li>
+            <li>Lib</li>
+          </ul>
+          <img src="./assets/img/preview.jpg" alt="">
+          <h4>SysIdentPy</h4>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+          <a href="">View Resume</a>
         </span>
-        <p>&copy; 2012 - 2014 Marcos Oliveira. Make with love in São Paulo - Brazil.</p>
-    </footer>
+        <span>
+          <ul>
+            <li>Python</li>
+            <li>Open Source</li>
+            <li>Lib</li>
+          </ul>
+          <img src="./assets/img/preview.jpg" alt="">
+          <h4>SysIdentPy</h4>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+          <a href="">View Resume</a>
+        </span>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Languages & Frameworks</h2>
+      <div class="skills">
+        <span>
+          <h6>Backend</h6>
+          <h3>Python</h3>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+        </span>
+        <span>
+          <h6>Frontend</h6>
+          <h3>JavaScript</h3>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+        </span>
+        <span>
+          <h6>Backend</h6>
+          <h3>Golang</h3>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+        </span>
+        <span>
+          <h6>Devops</h6>
+          <h3>Amazon Web Services</h3>
+          <p>Pellentesque volutpat sodales ex in suscipit liquam erat volutpat.</p>
+        </span>
+      </div>
+      <div class="frameworks">
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+        <span>
+          <img src="./assets/img/logo.png" alt="">
+          <h4>Django</h4>
+        </span>
+      </div>
+      <div class="btn-framework">
+        <a href="">View Resume</a>
+      </div>
+      
+    </section>
+    <section id="cta">
+      <div class="cta">
+        <span>
+          <h6>sodales in suscipit liquam erat</h6>
+          <h2>Pellentesque volutpat sodales in suscipit liquam erat volutpat?</h2>
+        </span>
+        <span>
+          <a href="">
+            <img src="./assets/img/fi-rr-arrow-down.svg" alt="">
+          </a>
+        </span>
+      </div>
+    </section>
+  </main>
+  <footer class="container">
+    <span>
+      <h4>Contact information</h4>
+      <p>Pellentesque volutpat sodales in suscipit liquam erat volutpat.</p>
+      <a href="">hello@bymarcos.com</a>
+      <a href="">+55 12 982 823 384</a>
+    </span>
+    <span>
+      <h4>Current availability</h4>
+      <p>Pellentesque volutpat sodales in suscipit liquam erat volutpat.</p>
+      <a href="">System Development</a>
+      <a href="">Interface Creating</a>
+      <a href="">UX Consulting</a>
+      <a href="">IT Project Management</a>
+      <a href="">Career Mentoring</a>
+    </span>
+    <span class="post-recent">
+      <h4>Recent articles</h4>
+      <a href="">
+        <time datetime="2022-12-02">24.11.2024 - </time>
+        <p>Pellentesque volutpat odales in suscipit - </p>
+        <strong>Read more</strong>
+      </a>
+      <a href="">
+        <time datetime="2022-12-02">24.11.2024 - </time>
+        <p>Pellentesque volutpat odales in suscipit - </p>
+        <strong>Read more</strong>
+      </a>
+      <a href="">
+        <time datetime="2022-12-02">24.11.2024 - </time>
+        <p>Pellentesque volutpat odales in suscipit - </p>
+        <strong>Read more</strong>
+      </a>
+    </span>
+    <span>
+      <h4>Follow me on</h4>
+      <p>Pellentesque volutpat sodales in suscipit liquam erat volutpat.</p>
+      <a href="">LinkedIn</a>
+      <a href="">GitHub</a>
+      <a href="">Dribble</a>
+      <a href="">Youtube</a>
+      <a href="">Twitter</a>
+    </span>
+    <p class="copy">&copy; 2012 - 2024 Marcos Oliveira. Make in São Paulo - Brazil.</p>
+  </footer>
+
+
+  <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
